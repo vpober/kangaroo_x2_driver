@@ -1,3 +1,4 @@
+
 # kangaroo_x2_driver
 ROS driver for Kangaroo X2 motor driver board
 
@@ -7,6 +8,19 @@ The intention is to use this to control the X2 from a Raspberry Pi through an FT
 
 Kangaroo X2 Arduino library:
 https://www.dimensionengineering.com/info/arduino
+
+## Author
+Tim Fan
+
+original source code https://github.com/tim-fan/kangaroo_x2_driver
+
+Edits by Valerie Pober
+-updated urdf file
+-updated command directions
+-added params for serial port connection and baud rate to launch file
+-added joints and channels for rear axle
+
+
 
 ## Test the connection to the motor driver:
 ```
